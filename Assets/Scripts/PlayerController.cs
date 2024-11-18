@@ -29,10 +29,10 @@ public class PlayerController : MonoBehaviour
     void Shoot()
     {
         GameObject instance = Instantiate(bullet, transform.position, Quaternion.identity);Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
-            if(rb != null)
-            {
-                rb.velocity = transform.up * bulletSpd;
-            }
-            Destroy(instance, bulletLifetime);
+        if(rb != null)
+        {
+            rb.velocity = transform.up * bulletSpd;
+        }
+        Destroy(instance, bulletLifetime);
     }
 }

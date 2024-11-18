@@ -95,11 +95,10 @@ GameObject:
   - component: {fileID: 5886781172712607544}
   - component: {fileID: 7437827576363366411}
   - component: {fileID: 4372911338971069651}
-  - component: {fileID: 1013347139512948497}
   - component: {fileID: 2038403568412364512}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,20 +159,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpd: 0.03
-  bullet: {fileID: 0}
-  bulletSpd: 0
---- !u!114 &1013347139512948497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5078816722079684729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 897e7b7dac17d2740b61ad4826931e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  bullet: {fileID: 6120184931220424126, guid: cef4ec878dfd3204789e7f8173468803, type: 3}
+  bulletSpd: 10
+  bulletLifetime: 3
 --- !u!61 &2038403568412364512
 BoxCollider2D:
   m_ObjectHideFlags: 0
